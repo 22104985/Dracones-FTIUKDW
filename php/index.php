@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-<title>Home</title>
+<title>Beranda</title>
 
 <link rel="stylesheet" type="text/css" href="../css/index.css" />
 <script type="text/javascript" src="../js/jquery.js"></script>
