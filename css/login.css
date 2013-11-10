@@ -1,0 +1,236 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+background:#f7f7f7 url(../images/egg_shell.png);
+}
+
+p {
+    padding: 10px;
+    font-weight: normal;
+}
+#formx{
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px; 
+}
+#chart{
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px; 
+}
+#wrapper {
+    width: 960px;
+    height: 600px;
+    display: block;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    
+
+}
+
+#scart{color: green;
+font-size: 12px;}
+
+#header {
+    height: 150px;
+    
+    
+    border: 0px ;
+    margin: 0px;
+	font-size:10px;
+    
+
+}
+
+
+
+#nav{
+background:url("../images/nav.png");
+
+
+}
+
+#leftcolumn th{
+    background:#f7f7f7 url(../images/egg_shell.png);
+    color: black;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+#rightcolumn th{
+    background:#f7f7f7 url(../images/egg_shell.png);
+    color: black;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+#nav li{
+ display: inline; 
+ list-style-type: none; /* menghilangkan icon dengan none */
+ padding-left: 30px; /* jarak pembatas ke kiri. */
+}
+#nav a:link, #nav a:visited{
+ color: white; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+}
+#nav a:hover, #nav a:active{
+    color: #fff; /* warna pada tulisan */
+    background-color: #333; /* latar belakang */
+    text-align: left;
+}
+#leftcolumn a:link,#leftcolumn a:visited {
+color: blue; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+
+}
+
+a:link, a:visited {
+color: black; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+ }
+#contentwrap {
+    width: 405px;
+    float: left;
+    margin: 0 auto;
+}
+
+#content {
+	 background:rgba(255,255,0,.1);
+        overflow:hidden;
+        border:1px solid rgba(225,225,225,.9);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+    height: auto;
+}
+ #content th{
+    background:#f7f7f7 url(../images/egg_shell.png);
+    color: black;
+    font-style: normal;
+    border-radius: 10px;
+   
+}
+
+  .kategori
+  {
+  width:165px;
+  height:120px;
+  text-align:center;
+  font-weight:bold;
+  
+  float:left;
+  margin:25px;
+  
+  }  
+
+#leftcolumnwrap {
+    width: 405px;
+    float: left;
+    margin: 0 auto;
+}
+
+#leftcolumn {
+    
+    
+    background:rgba(255,255,0,.1);
+        overflow:hidden;
+        border:1px solid rgba(225,225,225,.9);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+    height: auto;
+
+}
+
+#rightcolumnwrap {
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+}
+
+#rightcolumn {
+    
+    
+    background:rgba(255,255,0,.1);
+        overflow:hidden;
+        border:1px solid rgba(225,225,225,.9);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+    height: auto;
+}
+
+
+#footerwrap {
+    width: 960px;
+    text-align: center;
+        margin: 0px auto;
+    clear: both;
+    background:skyblue;
+        overflow:hidden;
+        
+    border-radius: 5px;
+}
+
+#footer {
+
+    
+    color: black;
+    font-style: normal;
+    border-radius: 5px;
+    position: relative;
+    clear: both;
+   
+}
+
+th{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 10pt;
+
+
+
+}
+
+p#trblock {
+margin: 29px 0 0;
+padding: 0;
+float: right;
+width: 146px;
+font: normal 10px Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+#wrapper #rightcolumnwrap #rightcolumn table tbody tr td {
+    font-weight: normal;
+}
+#wrapper #headerwrap #header #trblock #scart {
+    text-align: left;
+}
+#rightcolumn table {
+    text-align: center;
+}
