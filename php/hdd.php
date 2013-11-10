@@ -120,7 +120,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -144,7 +144,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -168,7 +168,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -193,7 +193,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -217,7 +217,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -241,7 +241,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
