@@ -1,0 +1,263 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333
+    background:#f7f7f7 url(../images/egg_shell.png);
+
+}
+
+p {
+    padding: 10px;
+    font-weight: normal;
+}
+#formx{
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px; 
+}
+#scart{color: green;
+font-size: 12px;}
+#chart{
+    float: right;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px; 
+}
+#wrapper {
+	width: 960px;
+	height: 800px;
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+}
+
+
+
+#header {
+    height: 80px;
+    
+    
+    border: 0px ;
+    margin: 0px;
+    
+
+}
+
+
+
+#nav{
+background:url("../images/nav.png");
+
+
+}
+
+#leftcolumn th{
+    background:#f7f7f7 url(../images/egg_shell.png);
+    color: black;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+#rightcolumn th{
+    background:#f7f7f7 url(../images/egg_shell.png);
+    color: black;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+#nav li{
+ display: inline; 
+ list-style-type: none; /* menghilangkan icon dengan none */
+ padding-left: 30px; /* jarak pembatas ke kiri. */
+}
+#nav a:link, #nav a:visited{
+ color: white; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+}
+#nav a:hover, #nav a:active{
+    color: black; /* warna pada tulisan */
+    background-color: white; /* latar belakang */
+    text-align: left;
+}
+#leftcolumn a:link,#leftcolumn a:visited {
+color: green; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+
+}
+#leftcolumn a:hover, #leftcolumn a:active{
+    color: black; /* warna pada tulisan */
+    background-color: white; /* latar belakang */
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+color: black; /* warna pada tulisan */
+ background-color: transparent;  /* latar belakang */
+ text-decoration: none; /* decoration */
+ }
+#contentwrap {
+    width: 660px;
+    float: left;
+    margin: 0 auto;
+}
+
+#content {
+	background: #FFFFFF;
+	border: 1px solid black;
+	margin: 5px;
+	height: 600;
+}
+#content1 {
+	background: #FFFFFF;
+
+	margin: 5px;
+	height: 600px;
+}
+ #tolo{
+    background:url("../images/kat.png");
+    color: white;
+    width: 655px;
+}
+
+  .kategori
+  {
+	width: 645;
+	height: auto;
+	text-align: left;
+	float: left;
+	margin: 10px;
+  
+  }  
+
+#leftcolumnwrap {
+
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+}
+
+#leftcolumn {
+    
+    
+     background:rgba(255,255,0,.1);
+        overflow:hidden;
+        border:1px solid rgba(225,225,225,.9);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+    height: auto;
+
+}
+
+#rightcolumnwrap {
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+}
+
+#rightcolumn {
+    
+    
+    background:rgba(255,255,0,.1);
+        overflow:hidden;
+        border:1px solid rgba(225,225,225,.9);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+    height: auto;
+}
+
+
+#footerwrap {
+    width: 960px;
+    text-align: center;
+        margin: 0px auto;
+    clear: both;
+    background:skyblue;
+        overflow:hidden;
+        
+    border-radius: 5px;
+}
+
+#footer {
+
+    
+    color: black;
+    font-style: normal;
+    border-radius: 5px;
+    position: relative;
+    clear: both;
+   
+}
+
+th{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 10pt;
+
+
+
+}
+
+p#trblock {
+margin: 29px 0 0;
+padding: 0;
+float: right;
+width: 146px;
+font: normal 10px Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+#wrapper #rightcolumnwrap #rightcolumn table tbody tr td {
+    font-weight: normal;
+}
+#wrapper #headerwrap #header #trblock #scart {
+    text-align: left;
+}
+#rightcolumn table {
+    text-align: center;
+}
+
+
+#slideshow {
+	width: 940px;
+	position: relative;
+	height: 270px;
+	display: block;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+#slideshow IMG {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	height: 596px;
+}
+
+#slideshow IMG.active {
+	z-index:10;
+}
+
+#slideshow IMG.last-active {
+	z-index:9;
+}
