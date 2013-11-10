@@ -1,5 +1,4 @@
-old	new	
-...	...	@@ -0,0 +1,287 @@
+
 	1	+<!DOCTYPE html>
 	2	+<html>
 	3	+<head>
