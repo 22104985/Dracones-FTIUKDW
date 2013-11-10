@@ -122,7 +122,7 @@ old	new
 	120	+              </tr>
 	121	+              <tr>
 	122	+                <td height="29">Jumlah</td>
-	123	+                <td>&nbsp;</td>
+	123	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	124	+              </tr>
 	125	+              <tr>
 	126	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -146,7 +146,7 @@ old	new
 	144	+              </tr>
 	145	+              <tr>
 	146	+                <td height="29">Jumlah</td>
-	147	+                <td>&nbsp;</td>
+	147	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	148	+              </tr>
 	149	+              <tr>
 	150	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -170,7 +170,7 @@ old	new
 	168	+              </tr>
 	169	+              <tr>
 	170	+                <td height="29">Jumlah</td>
-	171	+                <td>&nbsp;</td>
+	171	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	172	+              </tr>
 	173	+              <tr>
 	174	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -195,7 +195,7 @@ old	new
 	193	+              </tr>
 	194	+              <tr>
 	195	+                <td height="29">Jumlah</td>
-	196	+                <td>&nbsp;</td>
+	196	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	197	+              </tr>
 	198	+              <tr>
 	199	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -219,7 +219,7 @@ old	new
 	217	+              </tr>
 	218	+              <tr>
 	219	+                <td height="29">Jumlah</td>
-	220	+                <td>&nbsp;</td>
+	220	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	221	+              </tr>
 	222	+              <tr>
 	223	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -243,7 +243,7 @@ old	new
 	241	+              </tr>
 	242	+              <tr>
 	243	+                <td height="29">Jumlah</td>
-	244	+                <td>&nbsp;</td>
+	244	+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
 	245	+              </tr>
 	246	+              <tr>
 	247	+                <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
