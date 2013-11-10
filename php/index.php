@@ -151,7 +151,24 @@ scroll(0);
                   0852-5000-0000<br>
                   <br>
                 Jl Demangan Yogyakarta</p>
-                <p><img src="../images/facebook.png" width="60" height="60"><img src="../images/twitter.png" width="60" height="60"></p></td>
+                <p><img src="../images/facebook.png" width="60" height="60"><img src="../images/twitter.png" width="60" height="60"></p><?php
+$nama_berkaas ="COUNTER.DAT";
+if (file_exists($nama_berkaas))
+{
+  $berkas = fopen($nama_berkaas, "r");
+  $pencacah = (integer) trim(fgets($berkas,255));
+  $pencacah++;
+  fclose($berkas);
+}
+else
+$pencacah=1;
+$berkas=fopen($nama_berkaas, "w");
+fputs($berkas,$pencacah);
+fclose($berkas);
+print("pengunjung ke-$pencacah <BR>\n");
+
+
+?></td>
               </tr>
             </tbody>
           </table>
