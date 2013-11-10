@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HDD</title>
+<title>Flashdisk</title>
 
 <script type="text/javascript" src="../js/jquery.js"></script>
 <link rel="stylesheet" href="../css/style.css" />
@@ -12,29 +12,29 @@
     <script type="text/javascript" src="../js/slides.js"></script>
     <script type="text/javascript" src="../js/slideshow.js"></script>
     <script type="text/javascript" src="../js/slide-menu.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function()
-        {
-          
+  	  <script type="text/javascript">
+  	  	$(document).ready(function()
+  	  	{
+  	  		
 
-          $("button.beli").click(function()
-          {
-            alert("Login Dulu Baru Beli ");
-            
-          });
-      $("a#login").click(function()
-          {
-            alert("Hallo, silahkan masuk ");
-            
-          });
+  	  		$("button.beli").click(function()
+  	  		{
+  	  			alert("Login Dulu Baru Beli ");
+  	  			
+  	  		});
+			$("a#login").click(function()
+  	  		{
+  	  			alert("Hallo, Silahkan masuk ");
+  	  			
+  	  		});
 
       $("a#scart").click(function()
           {
             alert("Masih kosong! ");
             
           });
-        });
-      </script>
+  	  	});
+  	  </script>
 <link rel="stylesheet" type="text/css" href="../css/kategori.css" />
 </head>
 <body>
