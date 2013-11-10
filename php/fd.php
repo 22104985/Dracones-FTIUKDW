@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Flashdisk</title>
+<title>HDD</title>
 
 <script type="text/javascript" src="../js/jquery.js"></script>
 <link rel="stylesheet" href="../css/style.css" />
@@ -12,29 +12,29 @@
     <script type="text/javascript" src="../js/slides.js"></script>
     <script type="text/javascript" src="../js/slideshow.js"></script>
     <script type="text/javascript" src="../js/slide-menu.js"></script>
-  	  <script type="text/javascript">
-  	  	$(document).ready(function()
-  	  	{
-  	  		
+      <script type="text/javascript">
+        $(document).ready(function()
+        {
+          
 
-  	  		$("button.beli").click(function()
-  	  		{
-  	  			alert("Login Dulu Baru Beli ");
-  	  			
-  	  		});
-			$("a#login").click(function()
-  	  		{
-  	  			alert("Hallo, Silahkan masuk ");
-  	  			
-  	  		});
+          $("button.beli").click(function()
+          {
+            alert("Login Dulu Baru Beli ");
+            
+          });
+      $("a#login").click(function()
+          {
+            alert("Hallo, silahkan masuk ");
+            
+          });
 
       $("a#scart").click(function()
           {
             alert("Masih kosong! ");
             
           });
-  	  	});
-  	  </script>
+        });
+      </script>
 <link rel="stylesheet" type="text/css" href="../css/kategori.css" />
 </head>
 <body>
@@ -120,7 +120,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -144,7 +144,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity2"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -168,7 +168,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity3"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -193,7 +193,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity4"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -217,7 +217,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity5"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
@@ -241,7 +241,7 @@
               </tr>
               <tr>
                 <td height="29">Jumlah</td>
-                <td>&nbsp;</td>
+                <td><input type="text" class="inputboxquantity" size="4" id="quantity6"  value="1"></td>
               </tr>
               <tr>
                 <td height="29" colspan="2"> <button type="submit" class="beli">Beli</button></td>
