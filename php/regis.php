@@ -1,38 +1,40 @@
-<!DOCTYPE html>
+<?php
+include("koneksi.php");
+
+if($_POST){
+	$message = array();
+	
+	if(trim($_POST['username'])==""){$message[] = "<b>Username</b> tidak boleh kosong";}
+	
+	}
+?>
 <html>
 <head>
-<title>Akun Baru</title>
-<script type="text/javascript" src="../js/jquery.js"></script>
+<title>Daftar</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/regis.css" />
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/dropdown.js"></script>
     <script type="text/javascript" src="../js/slides.js"></script>
     <script type="text/javascript" src="../js/slideshow.js"></script>
     <script type="text/javascript" src="../js/slide-menu.js"></script>
-<script type="text/javascript" src="../js/jquery.js"></script>
-      
-
-
-<link rel="stylesheet" type="text/css" href="../css/style.css" />
-<link rel="stylesheet" type="text/css" href="../css/akunbaru.css" />
-<script type="text/javascript">
+      <script type="text/javascript">
         $(document).ready(function()
         {
-          $("a#daftar").click(function()
-          {
-            alert("Hallo, mohon daftar dulu ya !");
-            
-          });
+          
 
-          $("a#login").click(function()
+          
+      $("a#login").click(function()
           {
             alert("hallo, silahkan masuk ");
             
           });
-          $("a#scart").click(function()
+      $("a#scart").click(function()
           {
             alert("masih kosong! ");
             
           });
-            
         });
       </script>
 
@@ -43,74 +45,76 @@
         <div id="header"><img src="../images/logo.png" width="511" height="80">
             <p id="trblock">
               <a href="" id="scart">Keranjang Belanja</a><br>
-                        <a href="login_nodatabase.php" id="login" >Login</a>
-                    <a href="akunbaru.php">Daftar</a>
+                       <a href="masuk.php" id="login" >Masuk  </a>
+                    <a href="regis.php">  Daftar</a>
           </p>
         </div>
         </div>
-      <div id="navigationwrap">
+        <div id="navigationwrap">
         <div class="mn-container" >
   
     <ul id="topnav" >
 
-      <li><a href="index.php">Beranda</a></li>
+     <li><a href="../index.php">Beranda</a></li>
       <li><a href="carabelanja.php">Cara Belanja</a></li>
       <li><a href="tentangkami.php">Tentang Kami</a></li>
       
-    </ul>
+    </ul><ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="pencarian.php">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input id="textsearch" type="search" required x-moz-errormessage="Inputan jangan kosong !" size="22" value="" name="search" placeholder="pencarian"></input>
+                                </td>
+                                <td>
+                                    <input id="buttonsearch" type="submit" style="cursor:pointer;" value="" name=""></input>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </form></li></ul>
   </div>
         </div>
-      <div id="contentwrap">
+      
+        <div id="contentwrap">
         <div id="content">
           <table width="788">
             <thead>
               <tr>
-                <th height="33" colspan="3" bgcolor="#00FFFF">Masuk</th>
+                <th height="33" colspan="3" bgcolor="#00FFFF">Daftar</th>
               </tr>
             </thead>
             <tbody>
+             <form name="form1" method="post" action="regissukses.php">
               <tr>
-                <td width="90">&nbsp;</td>
-                <td width="269"><form name="form1" method="post" action="">
-                  <input type="radio" name="radio" id="radio" value="radio">
-                  <label for="radio">Mr</label>
-                </form></td>
-                <td width="269"><form name="form2" method="post" action="">
-                  <input type="radio" name="radio2" id="radio2" value="radio2">
-                  <label for="radio2">Ms</label>
-                </form></td>
+                <td>Nama User</td>
+                <td colspan="2"><input type="text"  name="username" placeholder="  "/></td>
               </tr>
-              <tr>
-                <td>Username</td>
-                <td colspan="2"><input type="text"  name="email2" placeholder="  "/></td>
-              </tr>
-              <tr>
-                <td>Nama Lengkap</td>
-                <td colspan="2"><input type="text"  name="email3" placeholder="  "/></td>
-              </tr>
+              
               <tr>
                 <td>Email</td>
                 <td colspan="2"><input type="text"  name="email" placeholder="  "/></td>
               </tr>
               <tr>
                 <td>Password</td>
-                <td colspan="2"><input type="password"  name="pass" placeholder="  "/></td>
+                <td colspan="2"><input type="password"  name="password" placeholder="  "/></td>
               </tr>
               <tr>
                 <td>No Telepon</td>
-                <td colspan="2"><input type="text"  name="email4" placeholder="  "/></td>
+                <td colspan="2"><input type="text"  name="no_telepon" placeholder="  "/></td>
               </tr>
               <tr>
                 <td>Alamat</td>
-                <td colspan="2"><form name="form3" method="post" action="">
-                  <label for="textarea"></label>
-                  <textarea name="textarea" id="textarea"></textarea>
-                </form></td>
+                <td colspan="2">
+                 
+                  <textarea name="alamat" id="textarea"></textarea>
+                </td>
               </tr>
               <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td><button type="submit">Daftar</button></td>
+                <td></td>
+                <td></td>
+                <td><button type="submit">Daftar!</button></td>
+              </form>
               </tr>
             </tbody>
           </table>
@@ -143,10 +147,9 @@
         </div>
         <div id="footerwrap">
         <div id="footer">
-            <p>Copyright © 2013 Dracones - Cepat & Murah Hanya Untuk Anda.        </p>
+            <p>Copyright © 2013 Dracones - Cepat & Murah Hanya Untuk Anda.</p>
         </div>
-      </div>
+        </div>
     </div>
 </body>
 </html>
-
