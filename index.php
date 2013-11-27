@@ -86,21 +86,21 @@ scroll(0);
       <li><a href="php/tentangkami.php">Tentang Kami</a></li>
       
     </ul>
-    <ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="php/pencarian.php">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <input id="textsearch" type="search" required x-moz-errormessage="Inputan jangan kosong !" size="22" value="" name="search" placeholder="pencarian"></input>
-                                </td>
-                                <td>
-                                    <input id="buttonsearch" type="submit" style="cursor:pointer;" value="" name=""></input>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </form></li></ul>
-  </div>
+<ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="php/pencarian.php">
+<table>
+<tbody>
+<tr>
+<td>
+<input id="cari" type="search" required x-moz-errormessage="Inputan jangan kosong !" size="22" value="" name="search" placeholder="pencarian"></input>
+</td>
+<td>
+<input id="butcari" type="submit" style="cursor:pointer;" value="" name=""></input>
+</td>
+</tr>
+</tbody>
+</table>
+</form></li></ul>
+</div>
         </div>
         <div id="leftcolumnwrap">
         <div id="leftcolumn">
