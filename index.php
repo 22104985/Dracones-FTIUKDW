@@ -2,7 +2,9 @@
 
 
 session_start();
-require "php/koneksi.php";
+error_reporting(E_ALL ^ E_NOTICE);
+$username=$_SESSION['username'];
+require "config.php";
 
 ?>
 
@@ -33,11 +35,7 @@ require "php/koneksi.php";
   	  			alert("hallo, silahkan masuk ");
   	  			
   	  		});
-      $("a#scart").click(function()
-          {
-            alert("masih kosong! ");
-            
-          });
+      
   	  	});
   	  </script>
 
@@ -70,9 +68,28 @@ scroll(0);
         <div id="header"><img src="images/logo.png" width="511" height="80">
 
             <p id="trblock">
-              <a href="" id="scart">Keranjang Belanja</a><br>
-                        <a href="php/masuk.php" id="login" >Masuk  </a>
-                    <a href="php/regis.php">  Daftar</a> 
+              <a href="cart.php" id="scart">Keranjang Belanja</a><br>
+                        <a href="masuk.php" id="login" >Masuk  </a>
+                        <?php
+						
+						if($_SESSION["username"] != NULL )
+
+                        {
+                              
+                              echo "<a href='profil.php'>".$username."</a>";
+					echo "<a href='logout.php'>     Keluar</a>";
+					
+                 $cssFile = "css/setelah.css";
+     echo "<link rel='stylesheet' href='" . $cssFile . "'>";
+
+
+                        }
+
+                        
+
+
+                        ?>
+                    <a href="regis.php" id="regis">  Daftar</a> 
           </p>
         </div>
         </div>
@@ -82,69 +99,32 @@ scroll(0);
     <ul id="topnav" >
 
       <li><a href="index.php">Beranda</a></li>
-      <li><a href="php/carabelanja.php">Cara Belanja</a></li>
-      <li><a href="php/tentangkami.php">Tentang Kami</a></li>
+      <li><a href="carabelanja.php">Cara Belanja</a></li>
+      <li><a href="tentangkami.php">Tentang Kami</a></li>
+      <li><a href="produk.php">Produk</a></li>
       
     </ul>
-<ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="php/pencarian.php">
-<table>
-<tbody>
-<tr>
-<td>
-<input id="cari" type="search" required x-moz-errormessage="Inputan jangan kosong !" size="22" value="" name="search" placeholder="pencarian"></input>
-</td>
-<td>
-<input id="butcari" type="submit" style="cursor:pointer;" value="" name=""></input>
-</td>
-</tr>
-</tbody>
-</table>
-</form></li></ul>
-</div>
-        </div>
-        <div id="leftcolumnwrap">
-        <div id="leftcolumn">
-          <table><thead>
-            <tr>
-            <th height="33" bgcolor="#00FFFF">Kategori Produk</th>
-
-            </tr>
-
-
-            </thead>
-            <tbody>
-<tr>
-<td><a href="php/fd.php">Flashdisk</a></td>
-</tr>
-<tr>
-<td><a href="php/hdd.php">HD Eksternal</a></td>
-</tr>
-<tr>
-<td><a href="php/headphone.php">Headphone</a></td>
-</tr>
-<tr>
-<td><a href="php/modem.php">Modem</a></td>
-</tr>
-<tr>
-<td><a href="php/speaker.php">Speaker</a></td>
-</tr>
-
-            </tbody>
-
-
-
-
-
-
-          </table>
-            
-        </div>
+    <ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="cari.php">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <input id="cari" type="search"  size="22" value="" name="search" placeholder="Pencarian"></input>
+                                </td>
+                                <td>
+                                    <input id="butcar" type="submit" style="cursor:pointer;" value="" name=""></input>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </form></li></ul>
+  </div>
         </div>
         <div id="contentwrap">
         <div id="content1">
         <div id="slideshow">
         
-<a href=""><img src="images/photo1.jpg" alt=""   width="640" height="400" class="active"/></a>
+<a href=""><img src="images/photo1.jpg" alt=""   width="810" height="400" class="active"/></a>
 
 
 			
