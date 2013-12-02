@@ -104,10 +104,10 @@ require "config.php";
             </thead>
            <tbody>
            <tr>
-                <th height="33"  ><a href="cod.php">Cod</a></th>
+                <td height="33"  ><a href="cod.php">Cod</a></td>
              </tr>
               <tr>
-                <th height="33"  ><a href="transfer.php">Transfer</a></th>
+                <td height="33"  ><a href="transfer.php">Transfer</a></td>
               </tr>
             </tbody>
           </table>
