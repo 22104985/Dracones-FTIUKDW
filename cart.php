@@ -172,7 +172,7 @@ include_once("config.php");
                   <strong>Whatsapp / Sms</strong><br>
                   0852-5000-0000<br>
                   <br>
-                Jl Demangan Yogyakarta<p><img src="../images/facebook.png" width="60" height="60"><img src="../images/twitter.png" width="60" height="60"></p></td>
+                Jl Demangan Yogyakarta<p><img src="images/facebook.png" width="60" height="60"><img src="images/twitter.png" width="60" height="60"></p></td>
               </tr>
             </tbody>
           </table>
