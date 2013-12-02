@@ -102,6 +102,11 @@ scroll(0);
       <li><a href="carabelanja.php">Cara Belanja</a></li>
       <li><a href="tentangkami.php">Tentang Kami</a></li>
       <li><a href="produk.php">Produk</a></li>
+      <li><?php
+if (!empty($_SESSION['username']) AND $_SESSION['username'] == 'admin')
+echo "<a href=dataproduk.php>Lihat Data</a>";
+?></li>
+      
       
     </ul>
     <ul id="topnav1" ><li ><form accept-charset="utf-8" method="post" action="cari.php">
