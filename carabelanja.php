@@ -103,7 +103,26 @@ require "config.php";
               </tr>
             </thead>
            <tbody>
-              
+               <tr><td>
+              <ul  >
+
+     <li>Klik Daftar</li>
+     <li>Isi Form Dengan lengkap.</li>
+     <li>Pastikan email anda diisi dengan benar.</li>
+     <li>Setelah anda selesai anda bisa login dengan user name dan password anda.</li>
+     <li>Pilih barang2 yang anda butuhkan.</li>
+     <li>Klik beli untuk memasukan ke keranjang belanja anda. </li>
+     <li>Pilih proses COD(untuk daerah jogja) atau Transfer.</li>
+     <li>Bila anda memilih transfer, Anda dapat mencatat nomor rekening bank Kami untuk proses pembayaran.</li>
+     <li>Laporkan pembayaran Anda segera jika sudah melakukan transfer ke rekening bank Kami, dengan cara menghubungi no staff kami.</li>
+     
+     
+      
+      
+    </ul>
+           
+           </td>
+           </tr>
             </tbody>
           </table>
         </div>
